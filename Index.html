@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Test de Preferencia de Colores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Ordena los Colores según tu Preferencia</h1>
+    <p>Arrastra y suelta los colores para ordenarlos de tu mayor a menor preferencia.</p>
+    
+    <div id="color-list" class="sortable">
+        <div class="color-item" data-color="Negro" style="background-color: black;"></div>
+        <div class="color-item" data-color="Azul Celeste" style="background-color: #87CEEB;"></div>
+        <div class="color-item" data-color="Amarillo" style="background-color: yellow;"></div>
+        <div class="color-item" data-color="Gris" style="background-color: gray;"></div>
+        <div class="color-item" data-color="Verde" style="background-color: green;"></div>
+        <div class="color-item" data-color="Rojo" style="background-color: red;"></div>
+        <div class="color-item" data-color="Morado" style="background-color: purple;"></div>
+        <div class="color-item" data-color="Café" style="background-color: brown;"></div>
+    </div>
+    
+    <button id="submit-button">Enviar</button>
+    
+    <div id="result"></div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
